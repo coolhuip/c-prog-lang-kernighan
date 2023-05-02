@@ -2,7 +2,7 @@
  * "The C Programming Language" - Brian W. Kernighan, Dennis M. Ritchie
  * Second Edition
  *
- * Exercise 1-#:
+ * Exercise #-#:
  *
  */
 
@@ -12,7 +12,7 @@ int main() {
 
 /* OUTPUT
  *
- * >>> cc ex1_#.c
+ * >>> cc ex#_#.c
  * >>> ./a.out
  *
  * >>>
