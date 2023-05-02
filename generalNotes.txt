@@ -1,0 +1,24 @@
+/*
+ * "The C Programming Language" - Brian W. Kernighan, Dennis M. Ritchie
+ * Second Edition
+ *
+ * General Notes
+ *
+ */
+
+(1.5) * Text I/O, regardless of where it originates or where it goes to,
+        is dealt w/ as streams of characters.
+
+        ---------------
+      * (a) text stream: a sequence of characters divided into lines;
+        ---------------  each line consists of zero/more characters followed
+                         by a '\n'.
+
+      * ch = getchar() -> Reads the next input character from a text stream.
+
+      * putchar(ch) -> Prints a character each time it's called.
+
+      * EOF is an integer defined in <stdio.h>
+        You can manually input EOF from the terminal by hitting CTRL-D.
+
+      * 
