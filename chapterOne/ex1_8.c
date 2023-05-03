@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 
-int countBlanksTabsNewlines() {
+int main() {
 	int nlc, c;
 
 	nlc = 0;
@@ -16,12 +16,6 @@ int countBlanksTabsNewlines() {
 		if (c == '\n' || c == ' ' || c == '\t')
 			++nlc;
 	}
-	
-	return nlc;
-}
-
-int main() {
-	int nlc = countBlanksTabsNewlines();
 	printf("Count: %d\n", nlc);
 }
 

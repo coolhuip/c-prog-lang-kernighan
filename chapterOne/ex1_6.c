@@ -8,39 +8,14 @@
 #include <stdio.h>
 
 
-/* copy input to output; 1st version */
-void copyPrintCharInefficient() {
-	int c; // c MUST be int-type, and not char-type, b/c it must be
-	       // able to hold EOF character.
-
-	c = getchar();
-	while (c != EOF) {
-		putchar(c);
-		c = getchar();
-	}
-
-}
-
-/* copy input to output; 2nd version */
-void copyPrintCharEfficient() {
-	int c;
-
-	while ((c = getchar()) != EOF) 
-		putchar(c);
-}
-
-void improperValueAssignment() {
+/*
+ * Improper value assignment.
+ */
+int main() {
 	int c;
 
 	printf("%d", c = (getchar() != EOF));
 	printf("\n");
-}
-
-int main() {
-	//copyPrintCharInefficient();
-	//printf("\n");
-	//copyPrintCharEfficient();
-	improperValueAssignment();
 }
 
 /* OUTPUT

@@ -16,7 +16,7 @@
 #define   STR_FAHR  "FAHRENHEIT"
 
 
-void reverseFahrCelciusConversion() {
+int main() {
 	float fahr, celcius;
 
 	printf("%10s%10s\n", STR_FAHR, STR_CELC);
@@ -24,10 +24,6 @@ void reverseFahrCelciusConversion() {
 		celcius = (5.0/9.0) * (fahr - 32);
 		printf("%10.1f%10.1f\n", fahr, celcius);
 	}
-}
-
-int main() {
-	reverseFahrCelciusConversion();
 }
 
 /* OUTPUT
