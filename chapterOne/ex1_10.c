@@ -16,16 +16,19 @@ int main() {
 	while ((c = getchar()) != EOF) {
 		if (c == '\t') printf("\\t");
 		else if (c == '\b') printf("\\b");
-		else if (c == '\\') printf("\\");
-		else getchar();
+		else if (c == '\\') printf("\\\\");
+		else putchar(c);
 	}
-	print("\n");
+	printf("\n");
 }
 
 /* OUTPUT
  *
  * >>> cc ex1_10.c
  * >>> ./a.out
+ * ___Hello,	a tab character preceeds. Also, each \ is replaced by \\.
+ * Hello,\ta tab character preceeds. Also, each \\ is replaced by \\\\.
+ * ___CTRL-D
  *
  * >>>
  */
