@@ -14,12 +14,27 @@
  * replace those whitespaces with a single one.
  */
 int main() {
+	int c, prevSpace;
+
+	prevSpace = 0;
+	while ((c = getchar()) != EOF) {
+		if (c == '\t') c = ' ';
+		if (c == ' ' && !prevSpace) {
+			putchar(c);
+			prevSpace = 1;
+		} else if (c != ' ') {
+			putchar(c);
+			prevSpace = 0;
+		}
+	}
 }
 
 /* OUTPUT
  *
  * >>> cc ex1_9.c
  * >>> ./a.out
- *
+ * ___This is       an input 	with too  many redundant spaces  .
+ * This is an input with too many redundant spaces .
+ * ___CTRL-D
  * >>>
  */
