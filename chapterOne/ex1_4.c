@@ -12,7 +12,7 @@
  * degF to degC  =>  C = (5/9)(F-32)
  * degC to defF  =>  F = (9/5)C + 32
  */
-void modifiedFahrCelciusConversion() {
+int main() {
 	float fahr, celcius;
 	int lower, upper, step;
 	char strFahr[] = "FAHRENHEIT";
@@ -29,10 +29,6 @@ void modifiedFahrCelciusConversion() {
 		printf("%7.1f%12.1f\n", celcius, fahr);
 		celcius += step;
 	}
-}
-
-int main() {
-	modifiedFahrCelciusConversion();
 }
 
 /* OUTPUT
