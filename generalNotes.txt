@@ -9,10 +9,10 @@
 (1.5) * Text I/O, regardless of where it originates or where it goes to,
         is dealt w/ as streams of characters.
 
-        ---------------
-      * (a) text stream: a sequence of characters divided into lines;
-        ---------------  each line consists of zero/more characters followed
-                         by a '\n'.
+        -----------
+      * text stream: a sequence of characters divided into lines;
+        -----------  each line consists of zero/more characters followed
+                     by a '\n'.
 
       * ch = getchar() -> Reads the next input character from a text stream.
 
