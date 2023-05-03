@@ -32,7 +32,6 @@ int main() {
  * ___this is some text
  * ___tabbed	line
  * ___CTRL-D
- * >>>
  * Count: 6
  * >>>
  */
