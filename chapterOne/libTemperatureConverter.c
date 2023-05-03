@@ -2,7 +2,7 @@
  * "The C Programming Language" - Brian W. Kernighan, Dennis M. Ritchie
  * Second Edition
  *
- * Pertains to Exercise 1-3
+ * Pertains to Exercises 1-3, 1-4, 1-5
  *
  */
 #include <stdio.h>
