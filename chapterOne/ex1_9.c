@@ -27,6 +27,7 @@ int main() {
 			prevSpace = 0;
 		}
 	}
+	printf("\n");
 }
 
 /* OUTPUT
@@ -36,5 +37,6 @@ int main() {
  * ___This is       an input 	with too  many redundant spaces  .
  * This is an input with too many redundant spaces .
  * ___CTRL-D
+ *
  * >>>
  */
