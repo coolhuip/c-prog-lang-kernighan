@@ -32,11 +32,15 @@ int main() {
 				if (state == IN) {
 					state = OUT;
 					if (wordCount < 10)
-						printf("Word #%d:   ", wordCount);
-					else if (wordCount >= 10 && wordCount < 100)
-						printf("Word #%d:  ", wordCount);
+						printf("Word #%d:   "
+								, wordCount);
+					else if (wordCount >= 10
+							&& wordCount < 100)
+						printf("Word #%d:  "
+								, wordCount);
 					else
-						printf("Word #%d: ", wordCount);
+						printf("Word #%d: "
+								, wordCount);
 					for (i = 0; i < wordLength; i++)
 						printf("|||");
 					printf("\n");
