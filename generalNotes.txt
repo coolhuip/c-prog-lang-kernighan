@@ -21,4 +21,9 @@
       * EOF is an integer defined in <stdio.h>
         You can manually input EOF from the terminal by hitting CTRL-D.
 
-      * 
+(1.6) * The SWITCH statement is useful when writing a multi-way branch, and is
+        particularly suitable when the condition is whether some integer or
+        character expression matches one of a set of constants.
+        (more on this in Section 3.4)
+
+
