@@ -45,4 +45,3 @@ void floatFahrCelciusConversion() {
 		fahr += step;
 	}
 }
-

@@ -28,4 +28,3 @@ void copyPrintCharEfficient() {
 	while ((c = getchar()) != EOF) 
 		putchar(c);
 }
-

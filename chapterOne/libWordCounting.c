@@ -37,4 +37,3 @@ void wordCount() {
 	}
 	printf("nc: %d\nnw: %d\nnl: %d\n", nc, nw, nl);
 }
-
