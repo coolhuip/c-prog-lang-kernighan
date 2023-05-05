@@ -32,3 +32,20 @@
       * main(): return(0) --> Normal termination of program
                 return(--NON-ZERO--) --> Unusual OR erroneous termination conditions
 
+(1.8) * In C, ALL function arguments are passed "by value".
+            -> The called function is given the values of its arguments in
+               TEMPORARY variables rather than the originals.
+                   -> Argument values are locally copied, NOT referenced.
+
+      * It's possible to make a function modify an argument in a collaing routine.
+        Two conditions must be met:
+            1. Caller must provide the ADDRESS of the variable to be set
+            2. Callee must declare the parameter to be a pointer & access the
+               variable indirectly through it.
+        (more on this in Chapter 5)
+
+      * When the name of an array is used as argument, the value passed to the
+        function is the location or address of the first element of the array.
+            -> There is NO COPYING of array elements.
+
+
