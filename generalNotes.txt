@@ -26,4 +26,9 @@
         character expression matches one of a set of constants.
         (more on this in Section 3.4)
 
+(1.7) * Function definitions can appear in any order, and in one source file
+        or several.
+
+      * main(): return(0) --> Normal termination of program
+                return(--NON-ZERO--) --> Unusual OR erroneous termination conditions
 
