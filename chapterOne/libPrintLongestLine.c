@@ -11,7 +11,6 @@
  *                 This is why I use 'getLine()' here, instead.
  */
 #include <stdio.h>
-
 #define MAXLINE 1000  // max input line size
 
 
