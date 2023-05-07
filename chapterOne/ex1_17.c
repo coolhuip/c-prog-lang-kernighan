@@ -44,21 +44,22 @@ int getLine(char line[], int maxline) {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_17.c
- * >>> ./a.out
- * ___This is some line that is supposed to be longer than 80 characters. So, here it is.
- * 84 characters:
- * This is some line that is supposed to be longer than 80 characters. So, here it is.
- * ___This line is NOT longer than 80 characters
- * ___abcdefghijklmnop
- * ___lllllllllllllllllllllljffffffffffffffffffffffffffffffffsksssssssssssssssssssssssssssssssssssssssssssssssssssssiiiiiiiiiiiiiiiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
- * 190 characters:
- * lllllllllllllllllllllljffffffffffffffffffffffffffffffffsksssssssssssssssssssssssssssssssssssssssssssssssssssssiiiiiiiiiiiiiiiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
- * ___                                                                                                                                                                                                            
- * 200 characters:
- *                                                                                                                                                                                                             
- * ___last input line
- * ___CTRL-D
- * >>>
+
+>>> cc ex1_17.c
+>>> ./a.out
+___This is some line that is supposed to be longer than 80 characters. So, here it is.
+84 characters:
+This is some line that is supposed to be longer than 80 characters. So, here it is.
+___This line is NOT longer than 80 characters
+___abcdefghijklmnop
+___lllllllllllllllllllllljffffffffffffffffffffffffffffffffsksssssssssssssssssssssssssssssssssssssssssssssssssssssiiiiiiiiiiiiiiiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+190 characters:
+lllllllllllllllllllllljffffffffffffffffffffffffffffffffsksssssssssssssssssssssssssssssssssssssssssssssssssssssiiiiiiiiiiiiiiiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+___                                                                                                                                                                                                            
+200 characters:
+                                                                                                                                                                                                            
+___last input line
+___CTRL-D
+>>>
+
  */

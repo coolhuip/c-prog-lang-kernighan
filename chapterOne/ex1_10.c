@@ -23,12 +23,13 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_10.c
- * >>> ./a.out
- * ___Hello,	a tab character preceeds. Also, each \ is replaced by \\.
- * Hello,\ta tab character preceeds. Also, each \\ is replaced by \\\\.
- * ___CTRL-D
- *
- * >>>
+
+>>> cc ex1_10.c
+>>> ./a.out
+___Hello,	a tab character preceeds. Also, each \ is replaced by \\.
+Hello,\ta tab character preceeds. Also, each \\ is replaced by \\\\.
+___CTRL-D
+
+>>>
+
  */

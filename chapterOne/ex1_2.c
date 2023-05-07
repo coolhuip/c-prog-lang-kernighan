@@ -24,13 +24,14 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_2.c
- * ex1_2.c: In function ‘main’:
- * ex1_2.c:19:9: warning: unknown escape sequence: '\c'
- *   19 |  printf("\c");
- *      |         ^~~~
- * >>> ./a.out
- * hello, world!cTesting NEWLINE
- * >>>
+
+>>> cc ex1_2.c
+ex1_2.c: In function ‘main’:
+ex1_2.c:19:9: warning: unknown escape sequence: '\c'
+  19 |  printf("\c");
+     |         ^~~~
+>>> ./a.out
+hello, world!cTesting NEWLINE
+>>>
+
  */

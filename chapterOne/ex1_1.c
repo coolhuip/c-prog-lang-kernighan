@@ -17,9 +17,10 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_1.c
- * >>> ./a.out
- * hello, world
- * >>>
+
+>>> cc ex1_1.c
+>>> ./a.out
+hello, world
+>>>
+
  */

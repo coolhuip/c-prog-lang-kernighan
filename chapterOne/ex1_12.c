@@ -28,21 +28,22 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_12.c
- * >>> ./a.out
- * ___Hello, 		world     !
- * Hello,
- * world
- * !
- * ___CTRL-D
- *
- * >>> ./a.out
- * ___Hello, world !
- * Hello,
- * world
- * !
- * ___CTRL-D
- *
- * >>>
+
+>>> cc ex1_12.c
+>>> ./a.out
+___Hello, 		world     !
+Hello,
+world
+!
+___CTRL-D
+
+>>> ./a.out
+___Hello, world !
+Hello,
+world
+!
+___CTRL-D
+
+>>>
+
  */

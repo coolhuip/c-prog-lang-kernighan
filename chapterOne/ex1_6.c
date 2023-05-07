@@ -19,13 +19,14 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_6.c
- * >>> ./a.out
- * ___CTRL-D
- * 0
- * >>> ./a.out
- * ___idk some input
- * 1
- * >>>
+
+>>> cc ex1_6.c
+>>> ./a.out
+___CTRL-D
+0
+>>> ./a.out
+___idk some input
+1
+>>>
+
  */

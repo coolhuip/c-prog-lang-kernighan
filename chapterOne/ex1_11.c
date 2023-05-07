@@ -41,11 +41,12 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_11.c
- * >>> ./a.out
- * wordCount() does NOT account for punctuation marks.
- * For instance, if input: "hello world !",
- * then wordCount() will count 3 words instead of 2.
- * >>>
+
+>>> cc ex1_11.c
+>>> ./a.out
+wordCount() does NOT account for punctuation marks.
+For instance, if input: "hello world !",
+then wordCount() will count 3 words instead of 2.
+>>>
+
  */

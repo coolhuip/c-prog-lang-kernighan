@@ -64,17 +64,18 @@ void copy(char to[], char from[]) {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_16.c
- * >>> ./a.out
- * ___hello,
- * ___world
- * ___will the real
- * ___slim shady please
- * ___stand up
- * ___idk what to write here
- * ___CTRL-D
- * Characters in Longest Line: 23
- * idk what to write here
- * >>>
+
+>>> cc ex1_16.c
+>>> ./a.out
+___hello,
+___world
+___will the real
+___slim shady please
+___stand up
+___idk what to write here
+___CTRL-D
+Characters in Longest Line: 23
+idk what to write here
+>>>
+
  */

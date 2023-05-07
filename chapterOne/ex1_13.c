@@ -61,34 +61,35 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_13.c
- * >>> ./a.out
- * Vertical histogram? Horizontal histogram? Choose.
- * Enter v or h: ___a
- *
- * Invalid input. Exiting program...
- * >>>
- * >>> ./a.out
- * Vertical histogram? Horizontal histogram? Choose.
- * Enter v or h: ___h
- *
- * ___ I got the mutant turtle squad beside me, poison pen, youtube.com, lauryn hill, mistah fab
- * Word #1:   |||
- * Word #2:   |||||||||
- * Word #3:   |||||||||
- * Word #4:   ||||||||||||||||||
- * Word #5:   ||||||||||||||||||
- * Word #6:   |||||||||||||||
- * Word #7:   ||||||||||||||||||
- * Word #8:   |||||||||
- * Word #9:   ||||||||||||||||||
- * Word #10:  ||||||||||||
- * Word #11:  ||||||||||||||||||||||||||||||||||||
- * Word #12:  ||||||||||||||||||
- * Word #13:  |||||||||||||||
- * Word #14:  ||||||||||||||||||
- * Word #15:  |||||||||
- * ___CTRL-D
- * >>>
+
+>>> cc ex1_13.c
+>>> ./a.out
+Vertical histogram? Horizontal histogram? Choose.
+Enter v or h: ___a
+
+Invalid input. Exiting program...
+>>>
+>>> ./a.out
+Vertical histogram? Horizontal histogram? Choose.
+Enter v or h: ___h
+
+___ I got the mutant turtle squad beside me, poison pen, youtube.com, lauryn hill, mistah fab
+Word #1:   |||
+Word #2:   |||||||||
+Word #3:   |||||||||
+Word #4:   ||||||||||||||||||
+Word #5:   ||||||||||||||||||
+Word #6:   |||||||||||||||
+Word #7:   ||||||||||||||||||
+Word #8:   |||||||||
+Word #9:   ||||||||||||||||||
+Word #10:  ||||||||||||
+Word #11:  ||||||||||||||||||||||||||||||||||||
+Word #12:  ||||||||||||||||||
+Word #13:  |||||||||||||||
+Word #14:  ||||||||||||||||||
+Word #15:  |||||||||
+___CTRL-D
+>>>
+
  */

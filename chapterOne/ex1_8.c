@@ -20,12 +20,13 @@ int main() {
 }
 
 /* OUTPUT
- *
- * >>> cc ex1_8.c
- * >>> ./a.out
- * ___this is some text
- * ___tabbed	line
- * ___CTRL-D
- * Count: 6
- * >>>
+
+>>> cc ex1_8.c
+>>> ./a.out
+___this is some text
+___tabbed	line
+___CTRL-D
+Count: 6
+>>>
+
  */
