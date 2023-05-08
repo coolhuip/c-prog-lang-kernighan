@@ -4,6 +4,10 @@
  *
  * Exercise 1-14: Write a program to print a histogram of the frequencies of
  *                different characters in its input.
+ *
+ * Modified solution from:
+ * https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Answer%20Book.pdf
+ *
  */
 #include <stdio.h>
 #include <ctype.h>
@@ -17,9 +21,6 @@
 
 /*
  * Print horizontal histogram freq. of different characters.
- * ---------------------------------------------------------
- * Modified solution from:
- * https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Answer%20Book.pdf
  */
 int main() {	
 	int c, i;
